@@ -19,17 +19,10 @@
             <img
               class="nav__logo--img"
               src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"
-              alt=""
+              alt="LOGO"
             />
             <div class="nav__logo--title">Treact</div>
           </div>
-            <!-- Hamburger Button
-  <div class="nav__hamburger" id="hamburger">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div> -->
-
           <div class="nav__links">
             <a href="#" class="nav__link">About</a>
             <a href="#" class="nav__link">Blog</a>
@@ -38,10 +31,62 @@
             <a href="#" class="nav__link login">Login</a>
             <a href="#" class="nav__link nav__link--primary">Sign Up</a>
           </div>
+          <button class="btn__menu" onclick="openMenu()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="btn__menu--svg"
+            >
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
         </div>
       </nav>
-
-      <!-- <div class="menu"></div> -->
+      <div class="menu">
+        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="light___StyledCloseIcon-lj69nl-14 fASujC"
+          >
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+        <div class="menu__links">
+          <a href="#about" class="menu__link" onclick="closeMenu()">About</a>
+          <a href="#blog" class="menu__link" onclick="closeMenu()">Blog</a>
+          <a href="#pricing" class="menu__link" onclick="closeMenu()"
+            >Pricing</a
+          >
+          <a href="#contact__us" class="menu__link" onclick="closeMenu()"
+            >Contact Us</a
+          >
+          <a href="#login" class="menu__link" onclick="closeMenu()">Login</a>
+          <a
+            href="#signup"
+            class="menu__link menu__link--primary"
+            onclick="closeMenu()"
+            >Sign up</a
+          >
+        </div>
+      </div>
 
       <header>
         <div class="header__container">
@@ -69,13 +114,10 @@
                 alt=""
               />
             </div>
-            <figure class="header__img--wrapper">
               <img
                 src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
                 class="header__img"
-                alt=""
-              />
-            </figure>
+                alt=""/>
           </div>
         </div>
       </header>
@@ -93,8 +135,7 @@
                 We Have Amazing <span class="purple">Service. </span>
               </h2>
               <p class="section__para">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Suscipit consequuntur iste in, autem mollitia ut!
+                Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
               </p>
             </div>
             <div class="features">
@@ -107,10 +148,9 @@
                     />
                   </figure>
                   <div class="feature__text">
-                    <h3 class="feature__title">Fast Performance</h3>
+                    <h3 class="feature__title">Secure</h3>
                     <p class="feature__para">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Suscipit consequuntur iste in, autem mollitia ut!
+                      Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
                     </p>
                   </div>
                 </div>
@@ -119,15 +159,14 @@
                 <div class="feature__row">
                   <figure class="feature__img--wrapper">
                     <img
-                      src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="feature__img"
+                      src="./assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" class="feature__img"
                       alt=""
                     />
                   </figure>
                   <div class="feature__text">
-                    <h3 class="feature__title">Fast Performance</h3>
+                    <h3 class="feature__title">24/7 Support</h3>
                     <p class="feature__para">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Suscipit consequuntur iste in, autem mollitia ut!
+                      Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
                     </p>
                   </div>
                 </div>
@@ -136,15 +175,14 @@
                 <div class="feature__row">
                   <figure class="feature__img--wrapper">
                     <img
-                      src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="feature__img"
+                      src="./assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" class="feature__img"
                       alt=""
                     />
                   </figure>
                   <div class="feature__text">
-                    <h3 class="feature__title">Fast Performance</h3>
+                    <h3 class="feature__title">Customizable</h3>
                     <p class="feature__para">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Suscipit consequuntur iste in, autem mollitia ut!
+                      Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
                     </p>
                   </div>
                 </div>
@@ -153,15 +191,14 @@
                 <div class="feature__row">
                   <figure class="feature__img--wrapper">
                     <img
-                      src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="feature__img"
+                      src="./assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" class="feature__img"
                       alt=""
                     />
                   </figure>
                   <div class="feature__text">
-                    <h3 class="feature__title">Fast Performance</h3>
+                    <h3 class="feature__title">Reliable</h3>
                     <p class="feature__para">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Suscipit consequuntur iste in, autem mollitia ut!
+                      Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
                     </p>
                   </div>
                 </div>
@@ -170,15 +207,14 @@
                 <div class="feature__row">
                   <figure class="feature__img--wrapper">
                     <img
-                      src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="feature__img"
+                      src="./assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" class="feature__img"
                       alt=""
                     />
                   </figure>
                   <div class="feature__text">
-                    <h3 class="feature__title">Fast Performance</h3>
+                    <h3 class="feature__title">Fast</h3>
                     <p class="feature__para">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Suscipit consequuntur iste in, autem mollitia ut!
+                      Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
                     </p>
                   </div>
                 </div>
@@ -187,15 +223,14 @@
                 <div class="feature__row">
                   <figure class="feature__img--wrapper">
                     <img
-                      src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="feature__img"
+                      src="./assets/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" class="feature__img"
                       alt=""
                     />
                   </figure>
                   <div class="feature__text">
-                    <h3 class="feature__title">Fast Performance</h3>
+                    <h3 class="feature__title">Easy</h3>
                     <p class="feature__para">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Suscipit consequuntur iste in, autem mollitia ut!
+                      Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
                     </p>
                   </div>
                 </div>
@@ -212,10 +247,10 @@
               <h4 class="section__tag">
                 <span class="purple">QUALITY WORK</span>
               </h4>
-              <h1 class="section__title">
+              <h2 class="section__title">
                 Designed & Developed by
                 <span class="purple"> Professionals.</span>
-              </h1>
+              </h2>
               <p class="section__para">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Architecto ipsam magni possimus nemo, suscipit reiciendis illo
@@ -241,9 +276,9 @@
             </figure>
             <div class="steps__description">
               <h4 class="section__tag"><span class="purple">STEPS</span></h4>
-              <h1 class="section__title">
+              <h2 class="section__title">
                 Easy to<span class="purple"> Get Started.</span>
-              </h1>
+              </h2>
               <div class="steps__list">
                 <div class="step">
                   <div class="step__number">01</div>
@@ -284,14 +319,14 @@
           <div class="row">
             <div class="values__description">
               <h4 class="section__tag"><span class="purple">VALUES</span></h4>
-              <h1 class="section__title">
+              <h2 class="section__title">
                 We Always Abide by Our <span class="purple"> Principles.</span>
-              </h1>
-              <p class="section__subtitle">
+              </h2>
+              <p class="section__para">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
                 eos vero corporis vel et nemo aspernatur tempora unde quod
                 dolore sequi optio dignissimos voluptas error ipsam ullam
-                pariatur, quam voluptatibus!
+                pariatur!
               </p>
               <div class="values__list">
                 <div class="value">
@@ -329,15 +364,11 @@
               </div>
               <button class="btn">Learn More</button>
             </div>
-
-            <!-- IMG WRAPPER -->
-            <figure class="value__img--wrapper">
+            <div>
               <img
-                class="value__img"
+                class="values__img"
                 src="./assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg"
-                alt=""
-              />
-            </figure>
+                alt=""/>
           </div>
         </div>
       </section>
@@ -418,13 +449,10 @@
       <section id="testimonials">
         <div class="container">
           <div class="row">
-            <figure class="testimonials__img--wrapper">
               <img
                 src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg"
-                class="testimonials__img"
-                alt=""
-              />
-            </figure>
+                class="testimonial__img"
+                alt=""/>
             <div class="testimonials__description">
               <h4 class="section__tag">
                 <span class="purple">TESTIMONIALS</span>
@@ -448,16 +476,38 @@
                 <p class="testimonial__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus qui id magnam quidem iure corporis natus necessitatibus maiores eius est quasi aperiam voluptas totam nam accusantium ipsam sapiente, numquam animi.</p>
                 <div class="testimonial__bottom">
                   <div class="testimonial__profile">
-                  <figure> <img class="testimonial__img" src="./assets/photo-1494790108377-be9c29b29330.avif"  alt=""></figure>
+                  <figure> <img class="testimonials__img" src="./assets/photo-1494790108377-be9c29b29330.avif"  alt=""></figure>
                   <div class="testimonial__details">
                     <div class="testimonial__name">Charlotte Hale</div>
                     <div class="testimonial__role">Director, Delos, Inc.</div>
                 </div>
                 </div>
                 <div class="testimonial__buttons">
-                  <button class="testimonial__button"></button>
+                  <button class="testimonial__button">
+                    <svg
+                    fill="none"
+                    stroke="rgb(100,21,255)"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                  </svg>
+                  </button>
                   <div class="divider"></div>
-                  <button class="testimonial__button"></button>
+                  <button class="testimonial__button">
+                    <svg
+                    fill="none"
+                    stroke="rgb(100,21,255)"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                  </svg>
+                  </button>
                 </div>
               </div>
             </div>
